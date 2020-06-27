@@ -8,7 +8,7 @@ If you use [Zhuinden's SimpleStack](https://github.com/Zhuinden/simple-stack) yo
 SimpleStack is more than a **navigation manager** and you can also use it to create scoped services that will keep state through process death if you use its `Bundleable`.
 
 GlobalServices are `ScopedServices` bound to an **global scopes**. They survive configuration change (device rotation/activity recreation) and you can use them
-to provide common global services to others **scoped services*.
+to provide common global services to others **scoped services**.
 
 For example, you can provide `application` as a `global service` without needing a lot of casts and whatever else you need to do to find the app context.
 
